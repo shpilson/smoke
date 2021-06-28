@@ -3,10 +3,6 @@ const Advantages = () => {
         '<img src="https://res.cloudinary.com/rostislavsellavi/image/upload/v1623852929/shops/108750/IMG_2004_2-removebg-preview_1_mftrk3.png" width="32px" class="leave">',
     );
 
-    // $('.homefeatured_category .container .section-title').prepend(
-    //   '<img src="https://res.cloudinary.com/rostislavsellavi/image/upload/v1623852929/shops/108750/IMG_2004_2-removebg-preview_1_mftrk3.png" width="32px" class="leave">'
-    // )
-
     $('.custom_section').append(
         `<div class="advantages-container container">
         <h4 class="advantage-title">
@@ -28,4 +24,4 @@ const Advantages = () => {
     );
 };
 
-export default Advantages;
+Advantages();
