@@ -134,7 +134,6 @@ const constants = {
   }
 
 const SocialIcons = () => {
-  const iconsContainer = constants.elements.footer.footerWidgets.firstColumn.socialIcons.el();
   const footer = constants.elements.footer.footerWidgets.row();
 
   footer.insertAdjacentHTML('beforeend', `
@@ -146,7 +145,6 @@ const SocialIcons = () => {
   </div>
   `)
 
-  iconsContainer.remove();
 }
 
 export default SocialIcons;
