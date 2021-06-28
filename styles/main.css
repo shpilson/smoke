@@ -1,0 +1,5 @@
+/* Фон */
+
+.wrapper, .container-fluid, .header-wrapper, .navigation-wrapper, body .footer .footer-meta {
+    background-color: #d1e7cd !important;
+}
