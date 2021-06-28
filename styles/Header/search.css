@@ -1,0 +1,187 @@
+/* Header: search */
+
+body.ltr .wrapper .header .header-wrapper .header-search input.form-control {
+    border: none !important;
+    background: transparent;
+}
+
+body.theme_11 #search>div.search_field>input:active, body.theme_11 #search>div.search_field>input:focus {
+    background: #ffffff20 !important;
+    border-radius: 4px !important;
+}
+
+body.ltr header .header-search {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search #search_results .add_to_cart>button, body.theme-cumin.theme_11 .wrapper .header .header-wrapper .header-search #search_results .more_details_btn_wrapper>button {
+    color: black !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search input.form-control::-webkit-input-placeholder {
+    color: #0000 !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search input.form-control::-moz-placeholder {
+    color: #0000 !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search input.form-control:-ms-input-placeholder {
+    color: #0000 !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search input.form-control::-ms-input-placeholder {
+    color: #0000 !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search input.form-control::placeholder {
+    color: #0000 !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search {
+    background: #D0A966 !important;
+    border-radius: 5px;
+    padding: 0 20px;
+    max-width: 385px !important;
+    height: 65px !important;
+    width: 100%;
+    margin: 0 0 0 28px !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control, body.ltr .wrapper .header .header-wrapper .header-search .search_field {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search {
+    max-width: 385px;
+    width: 100%;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search, body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+    height: 65px !important;
+    color: white !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control::-webkit-input-placeholder {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control::-moz-placeholder {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control:-ms-input-placeholder {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control::-ms-input-placeholder {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control::placeholder {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.wrapper .header .header-wrapper .header-search.opened #search_results>a {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+    width: 500px;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a .add_to_cart>button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    height: 50px !important;
+}
+
+body.theme_11.bottom-nav-enabled nav.mobile_bottom_nav>ul.mobile_side_nav_menu li.bottom-nav-search #mobile_search_results>a {
+    max-height: initial;
+    min-height: 90px !important;
+}
+
+@media (max-width: 992px) {
+    body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+        background: #fff;
+        border: 1px solid #d3d3d3 !important;
+        border-radius: 50px;
+        -webkit-box-shadow: 4.18421px 8.36842px 13.9474px rgba(0, 0, 0, 0.07) !important;
+        box-shadow: 4.18421px 8.36842px 13.9474px rgba(0, 0, 0, 0.07) !important;
+        max-width: 345px;
+        width: 100%;
+    }
+    body.theme_11.ltr .wrapper .header .header-wrapper .header-search button {
+        right: 6px !important;
+        left: auto !important;
+        top: 0 !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border: 3px solid var(--main-color);
+        border-radius: 50px !important;
+        height: 100%;
+        padding: 0 57px !important;
+    }
+    body.theme_11#home .is-sticky .header-search {
+        display: none !important;
+    }
+    body.theme_11 .wrapper .header .header-wrapper .header-search {
+        display: none !important;
+    }
+    body.theme_11.ltr .wrapper .header .header-wrapper .header-search button i {
+        margin-right: 8px;
+    }
+    body.ltr .wrapper .header .header-wrapper .header-search, body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+        max-width: 345px !important;
+    }
+    body.theme_11 .wrapper .header .header-wrapper .header-search .search_field input.form-control::-webkit-input-placeholder {
+        color: #bebebe !important;
+    }
+    body.theme_11 .wrapper .header .header-wrapper .header-search .search_field input.form-control::-moz-placeholder {
+        color: #bebebe !important;
+    }
+    body.theme_11 .wrapper .header .header-wrapper .header-search .search_field input.form-control:-ms-input-placeholder {
+        color: #bebebe !important;
+    }
+    body.theme_11 .wrapper .header .header-wrapper .header-search .search_field input.form-control::-ms-input-placeholder {
+        color: #bebebe !important;
+    }
+    body.theme_11 .wrapper .header .header-wrapper .header-search .search_field input.form-control::placeholder {
+        color: #bebebe !important;
+    }
+}
+
+@media (max-width: 550px) {
+    body.theme_11 .wrapper .header .header-wrapper .header-search {
+        width: 98% !important;
+    }
+    body.theme_11.ltr .wrapper .header .header-wrapper .header-search button {
+        right: 7px !important;
+    }
+}

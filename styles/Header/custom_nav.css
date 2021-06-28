@@ -1,0 +1,16 @@
+/* Header: custom_nav */
+
+.custom_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 !important;
+    position: absolute;
+    left: 35%;
+}
+
+@media (max-width: 1200px) {
+    .custom_nav {
+        display: none !important;
+    }
+}
