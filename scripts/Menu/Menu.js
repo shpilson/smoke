@@ -133,7 +133,8 @@ const constants = {
       : console.log(`Элементы ${element} не найдены`);
   }
 
-import openMenu from './scripts/openMenu.js';
+import openMenu from 'https://shpilson.github.io/smoke/scripts/Menu/scripts/openMenu.js';
+
 import createBurger from './scripts/createBurger.js';
 import setMenuContainer from './scripts/setMenuContainer.js';
 import renderLevels from './scripts/renderLevels.js';
