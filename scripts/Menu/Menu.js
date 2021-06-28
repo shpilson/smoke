@@ -147,4 +147,3 @@ const activateMenu = () => {
   // showSubMenu();
 }
 
-export default activateMenu;
