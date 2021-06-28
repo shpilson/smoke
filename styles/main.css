@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 @import './fixes.css';
-
 @import '../scripts/Menu/styles/menu.css';
 @import './Header/header.css';
 @import './Main/category.css';
 @import './Main/card.css';
-
 /* Фоновое изображение */
 
 body.common-home>.wrapper {
@@ -18,7 +16,6 @@ body.common-home>.wrapper {
 body.theme_11 .wrapper .header .header-wrapper {
     background: #F0D3A2 !important;
 }
-
 
 /* root */
 
