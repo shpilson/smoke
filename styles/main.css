@@ -3,3 +3,10 @@
 .wrapper, .container-fluid, .header-wrapper, .navigation-wrapper, body .footer .footer-meta {
     background-color: #ffffff !important;
 }
+
+/* Фоновое изображение */
+
+body.common-home > .wrapper {
+    background: url("./images/background.png") repeat-y;
+    background-size: 100%;
+   }
