@@ -147,3 +147,4 @@ const activateMenu = () => {
   // showSubMenu();
 }
 
+activateMenu();
