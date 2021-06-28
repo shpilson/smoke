@@ -1,12 +1,12 @@
 const Advantages = () => {
     $('.page-section .container .section-title').prepend(
-        '<img src="https://res.cloudinary.com/rostislavsellavi/image/upload/v1623852929/shops/108750/IMG_2004_2-removebg-preview_1_mftrk3.png" width="32px" class="leave">',
+        '<img src="https://shpilson.github.io/smoke/images/prefix.png" width="32px" class="leave">',
     );
 
     $('.custom_section').append(
         `<div class="advantages-container container">
         <h4 class="advantage-title">
-          <img src="https://res.cloudinary.com/rostislavsellavi/image/upload/v1623852929/shops/108750/IMG_2004_2-removebg-preview_1_mftrk3.png" width="32px" class="leave">
+          <img src="https://shpilson.github.io/smoke/images/prefix.png" width="32px" class="leave">
           Преимущества
         </h4>
         <ul class="advantages-list">
