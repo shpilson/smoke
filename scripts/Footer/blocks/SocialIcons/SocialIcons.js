@@ -134,17 +134,19 @@ const constants = {
   }
 
 const SocialIcons = () => {
+  const iconsContainer = constants.elements.footer.footerWidgets.firstColumn.socialIcons.el();
   const footer = constants.elements.footer.footerWidgets.row();
 
   footer.insertAdjacentHTML('beforeend', `
   <div class="col-md-3">
     <div class="widget widget-categories">
       <h4 class="widget-title">Мы в соц. сетях</h4>
-      
+      ${iconsContainer.outerHTML}
     </div>
   </div>
   `)
 
+  iconsContainer.remove();
 }
 
 export default SocialIcons;
