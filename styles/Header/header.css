@@ -1,9 +1,9 @@
-@import './custom_nav.css';
-@import './cart.css';
-@import './logo.css';
-@import './navs.css';
-@import './search.css';
-@import './widgets.css';
+@import '/custom_nav.css';
+@import '/cart.css';
+@import '/logo.css';
+@import '/navs.css';
+@import '/search.css';
+@import '/widgets.css';
 
 /* Header: header */
 
