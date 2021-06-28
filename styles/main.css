@@ -1,9 +1,3 @@
-/* Фон */
-
-.wrapper, .container-fluid, .header-wrapper, .navigation-wrapper, body .footer .footer-meta {
-    background-color: #ffffff !important;
-}
-
 /* Фоновое изображение */
 
 body.common-home > .wrapper {
