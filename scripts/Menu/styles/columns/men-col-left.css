@@ -1,0 +1,35 @@
+.custom_menu > div > div.menu-col-left {
+    padding: 2% 0 1% 0 !important;
+    overflow-y: scroll;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-right: 1px solid #f2f2f2 !important;
+    background: #fff;
+  }
+  
+  .custom_menu > div > div.menu-col-left > a {
+    width: 100%;
+    padding: 10px 15px 8px;
+    font-weight: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-color: var(--main-color) !important;
+    background: #fff;
+  }
+  
+  .custom_menu > div > div.menu-col-left > a.show {
+    color: var(--main-color);
+  }
+  

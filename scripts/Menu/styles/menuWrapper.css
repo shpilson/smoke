@@ -1,0 +1,38 @@
+.custom_menu.menu_closed {
+    display: none;
+  }
+  
+  .custom_menu,
+  .custom_menu > div,
+  .custom_menu > div > div {
+    max-height: 400px !important;
+  }
+  
+  .custom_menu {
+    position: absolute;
+    left: 0;
+    /* top: 45px; */
+    background: #f7f7f7;
+    width: 100vw;
+    z-index: 99;
+    -webkit-box-shadow: 0px 9px 10px 0px rgb(50 50 50 / 15%);
+    box-shadow: 0px 9px 10px 0px rgb(50 50 50 / 15%);
+  }
+  
+  .custom_menu > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+  }
+  
+  .custom-menu_wrapper {
+    z-index: -1;
+    /* background: #00000009; */
+    width: 100vw;
+    height: 100vh !important;
+    overflow-y: hidden;
+    top: 0;
+    right: 0;
+  }
+  
