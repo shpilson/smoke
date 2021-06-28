@@ -1,0 +1,123 @@
+body.ltr .social-icons li {
+    padding: 0;
+}
+
+.social-icons .instagram i::before {
+    content: '\f2c6' !important;
+}
+
+body.theme_11 .wrapper footer.footer .social-icons>li>a {
+    border: none !important;
+    padding: 0;
+    height: 40px !important;
+    width: 40px !IMPORTANT;
+    font-size: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .social-icons>li>a>i {
+    color: var(--main-color) !important;
+    font-size: 40px !important;
+}
+
+body.theme_11 .wrapper footer.footer {
+    border-top: none !important;
+    background: transparent !important;
+}
+
+.footer .row {
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+    padding-top: 30px !important;
+}
+
+body .footer .footer-meta {
+    border-top: none !important;
+}
+
+#sellavi_logo img {
+    -webkit-filter: sepia(1) !important;
+    filter: sepia(1) !important;
+}
+
+#home footer .footer-widgets a .fa {
+    color: var(--main-color) !important;
+}
+
+body.theme_11 .wrapper footer.footer .container {
+    border-top: 1px solid black;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets, body .footer .footer-meta {
+    display: block !important;
+    background: transparent !important;
+}
+
+body.theme-green-1 .footer .footer-widgets .widget-title:before, body.ltr .footer-widgets .widget-title:before, body.ltr .widget-categories ul li a:before {
+    display: none !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+    color: #3d3d3d !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul.social-icons li a:hover {
+    background: #0000 !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-size: 16px !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+    font-size: 18px !important;
+}
+
+body.ltr .widget-categories ul li a {
+    padding-left: 0 !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li+li {
+    border: none !important;
+}
+
+body.theme_11:not(.common-home) footer.footer .footer-widgets>.container {
+    height: 100%;
+    overflow: visible !important;
+    margin: 0 auto !important;
+}
+
+.footer-meta>.container {
+    border-top: 1px solid black;
+    padding: 30px 0 !important;
+}
+
+@media (max-width: 768px) {
+    body .footer .footer-widgets .widget-title {
+        padding: 0 !important;
+        margin-top: 45px !important;
+        margin-bottom: 20px !important;
+    }
+    body .footer .footer-widgets>div>div {
+        padding-left: 30px !important;
+        width: 100% !important;
+    }
+    .footer-widgets .col-md-3 {
+        padding-left: 0 !important;
+    }
+    .footer-meta .row:not(.footer_content_wrapper)>div {
+        margin: 30px 0 !important;
+    }
+    .footer-meta .row {
+        margin: 0 !important;
+    }
+}
