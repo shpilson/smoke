@@ -11,13 +11,13 @@ const Advantages = () => {
         </h4>
         <ul class="advantages-list">
           <li class="advantages-list-item">
-            <img src="https://res.cloudinary.com/rostislavsellavi/image/upload/v1624202051/shops/108750/Group_7423954_1_y0xdaw.png">
+            <img src="https://shpilson.github.io/smoke/images/1adv.png">
             <p>В розницу и оптом по Мск и всей России</p></li>
           <li class="advantages-list-item">
-            <img src="https://res.cloudinary.com/rostislavsellavi/image/upload/v1624202051/shops/108750/Group_7423955_1_hiwduo.png">
+            <img src="https://shpilson.github.io/smoke/images/2adv.png">
             <p>Индивидуальный подход  к каждому клиенту</p></li>
           <li class="advantages-list-item">
-            <img src="https://res.cloudinary.com/rostislavsellavi/image/upload/v1624202051/shops/108750/Group_7423956_1_d8idll.png">
+            <img src="https://shpilson.github.io/smoke/images/3adv.png">
             <p>Исполнение Ваших пожеланий  - наш успех </p></li>
         </ul>
       </div>`,
