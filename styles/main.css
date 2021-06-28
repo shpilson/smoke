@@ -2,8 +2,11 @@
 @import './fixes.css';
 @import '../scripts/Menu/styles/menu.css';
 @import './Header/header.css';
+
 @import './Main/category.css';
 @import './Main/card.css';
+
+@import './Footer/footer.css';
 /* Фоновое изображение */
 
 body.common-home>.wrapper {
