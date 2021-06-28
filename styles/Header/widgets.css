@@ -84,6 +84,10 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
     }
 }
 
+.fa-user:before {
+    content: "\f2bd" !important;
+}
+
 .fa-user-circle {
     content: "\f2bd" !important;
 }
