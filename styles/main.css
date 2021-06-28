@@ -10,3 +10,10 @@ body.common-home > .wrapper {
     background: url("../images/background.png") repeat-y;
     background-size: 100%;
    }
+
+
+/* Header: background color */
+
+body.theme_11 .wrapper .header .header-wrapper {
+    background: #F0D3A2 !important;
+}
