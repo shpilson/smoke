@@ -686,3 +686,17 @@ body.theme_11 .header-cart .cart_drop_down .dropdown-menu .cart-items .cart-item
         left: auto !important;
     }
 }
+
+/* Header: hide text */
+
+.wrapper .header .header-wrapper .header_widgets .header_login {
+    padding: 0 20px !important;
+}
+
+.header_login>.d-none.d-lg-block {
+    display: none !important;
+}
+
+.header_login>.d-none.d-sm-block.d-lg-none {
+    display: block !important;
+}
