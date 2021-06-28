@@ -91,6 +91,7 @@ body.theme_11 .wrapper .top-bar {
 
 .header_widgets .fa-shopping-cart:before {
     content: "\f07a" !important;
+    font-weight: bold;
 }
 
 body.theme_11 .header-cart .cart_drop_down .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a:hover {
