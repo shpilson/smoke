@@ -41,7 +41,7 @@ body.common-home .product-item .thumbnail {
 }
 
 .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
-    color: var(--main-color);
+    color: var(--main-color) !important;
 }
 
 .latest-section .product-layout .thumbnail .media {
