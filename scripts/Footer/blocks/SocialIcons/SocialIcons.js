@@ -141,7 +141,7 @@ const SocialIcons = () => {
   <div class="col-md-3">
     <div class="widget widget-categories">
       <h4 class="widget-title">Мы в соц. сетях</h4>
-      ${iconsContainer.outerHTML}
+      
     </div>
   </div>
   `)
