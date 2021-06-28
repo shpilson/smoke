@@ -83,3 +83,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
         display: flex !important;
     }
 }
+
+.fa-user-circle:before {
+    content: "\f2bd" !important;
+}
