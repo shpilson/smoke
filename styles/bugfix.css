@@ -58,40 +58,6 @@ body .add_to_cart .btn.btn-theme:not(.btn-wish-list) i, #button-review i {
     direction: unset !important;
 }
 
-/* btn focus remove */
-
-.btn:not(.btn-wish-list):focus {
-    border-width: 1px !important;
-}
-
-/* cart-dropdown buttons 5s on one line */
-
-@media (max-width: 320px) {
-    .dropdown-menu .cart-content .media-links>.row {
-        -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    }
-}
-
-/* buy button loading/qty height fix */
-
-div:not(.mobile_wishlist) .btn:not(span):not(.btn-wish-list):not(.dropdown-toggle):not(.dropdown-toggle):not(#list-view):not(#grid-view):not(#button-coupon):not(.btn-block), .product-product .buttons .btn, .quantity.buttons_added, .buttons .quantity {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 44px !important;
-}
-
-.price_actions .price {
-    margin: auto 0;
-}
-
 /* active dropdown dim */
 
 .select2-container--open .select2-dropdown, .dropdown-menu.dropdown-menu-right.show {
