@@ -24,4 +24,4 @@ const Advantages = () => {
     );
 };
 
-Advantages();
+export default Advantages;
