@@ -81,3 +81,34 @@ div:not(.mobile_wishlist) .btn:not(.btn-wish-list):not(#button-coupon), .product
     background-color: var(--btn-primary-bg-clr) !important;
     color: var(--btn-primary-clr) !important;
 }
+
+/* Main buttons hover / Тени основных кнопок */
+
+.btn.btn-primary:hover, #button-cart[disabled], .btn.btn-info:hover, .btn.btn-info:hover i, .btn.btn-theme:not(.btn-theme-transparent):not(.facebook):not(.twitter):hover:not([disabled]), .btn.btn-theme:not(.btn-theme-transparent):not(.facebook):not(.twitter):hover:not([disabled]) i, #home.account-login .btn.btn-theme.btn-theme-dark:hover:not([disabled]), .theme_11#home #search #search_results .add_to_cart .btn.btn-theme:hover, .theme_11#home #search #search_results .add_to_cart .btn.btn-theme[disabled], .theme_11#home .add_to_cart .btn.btn-theme:hover, .theme_11#home .add_to_cart .btn.btn-theme[disabled], .theme_11.account-wishlist .add_to_cart .btn.btn-theme:hover:not([disabled]), #home.checkout-checkout #button-login:hover, #home #contact-form .form-button-submit:hover, #home.error-not_found .btn.btn-theme-dark:hover, body#home.ltr.account-edit .float-right input:hover, body#home.ltr.account-password .float-right input:hover, body#home.ltr.account-address .float-right a:hover, body#home.ltr.account-address-edit .float-right input:hover, body#home.ltr.account-address-add .float-right input:hover, body#home.ltr.account-order-info .float-right input:hover {
+    color: var(--btn-primary-clr-h) !important;
+    background-color: var(--btn-primary-bg-h) !important;
+    border-color: var(--btn-primary-border-clr-h) !important;
+}
+
+.theme_11#home #search #search_results .add_to_cart .btn.btn-theme:hover span, .theme_11#home #search #search_results .add_to_cart .btn.btn-theme:hover i {
+    color: var(--btn-primary-clr-h) !important;
+}
+
+/* Other buttons / Другие кнопки */
+
+#home.theme_11 .buttons .quantity, body:not(.theme_11) .quantity .btn, body:not(.theme_11).product-product .product-single .buttons .quantity .qty, .product-product .product-item .buttons .btn.btn-wish-list, .theme_11#home .quantity.buttons_added, .theme_11#home #search #search_results .quantity.buttons_added {
+    border-color: var(--btn-secondary-border-clr) !important;
+    background-color: var(--btn-secondary-bg-clr) !important;
+    color: var(--btn-secondary-clr) !important;
+    border-style: solid;
+}
+
+.product-product .quantity .btn i, .product-product .product-single .buttons .quantity .qty, #home .quantity.buttons_added i, #home .quantity.buttons_added input, #home #search #search_results .quantity.buttons_added i, #home #search #search_results .quantity.buttons_added input {
+    color: var(--btn-secondary-clr) !important;
+}
+
+#home .btn.btn-theme-dark, .cart_drop_down .media.buttons .btn.btn-theme-default, .checkout-cart .btn.btn-theme-default {
+    color: var(--btn-secondary-clr) !important;
+    background-color: var(--btn-secondary-bg-clr) !important;
+    border-color: var(--btn-secondary-border-clr) !important;
+}
