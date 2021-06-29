@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import './typographics.css'; /* Fonts & Colors */
+
 @import './fixes.css';
 @import './UI.css';
 
@@ -9,7 +10,8 @@
 @import './Main/card.css';
 
 @import './Footer/footer.css';
-/* Фоновое изображение */
+
+/* Background image */
 
 body.common-home>.wrapper {
     background: url("../images/background.png") repeat-y;
@@ -22,26 +24,3 @@ body.theme_11 .wrapper .header .header-wrapper {
     background: #F0D3A2 !important;
 }
 
-/* root */
-
-:root {
-    --main-color: #C19549;
-    --main-border-rad: 5px;
-    --main-border-w: 1px;
-    --font-headers: 'Roboto', serif;
-    --font-body: 'Roboto', sans-serif;
-    --btn-primary-bg-clr: #C19549;
-    --btn-primary-clr: white;
-    --btn-primary-border-clr: #C19549;
-    --btn-primary-clr-h: #C19549;
-    --btn-secondary-bg-clr: transparent;
-    --btn-secondary-clr: #C19549;
-    --btn-secondary-border-clr: #C19549;
-    --btn-secondary-clr-hover: #7d6231;
-    --link-hover-clr: #7d6231;
-    --product-img-fit: cover;
-}
-
-body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span, body b, body strong {
-    font-family: 'Roboto', sans-serif!important;
-}
