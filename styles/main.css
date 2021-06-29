@@ -13,7 +13,7 @@
 @import './bugfix.css';
 @import './buttons.css';
 
-/* Background image */
+/* Background image / Фоновое изображение */
 
 body.common-home>.wrapper {
     background: url("../images/background.png") repeat-y;
