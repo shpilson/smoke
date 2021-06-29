@@ -124,3 +124,48 @@ div:not(.mobile_wishlist) .btn:not(span):not(.btn-wish-list):not(.dropdown-toggl
 .price_actions .price {
     margin: auto 0;
 }
+
+
+/* ... */ 
+
+.account-wishlist .thumbnail .add_to_cart button {
+    margin: auto;
+    width: 100%;
+    color: white;
+}
+
+/* icons on the buttons unglued from text */
+
+body .add_to_cart .btn.btn-theme:not(.btn-wish-list) i, #button-review i {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+/* mini-cart shadow */
+
+.ltr .dropdown-menu {
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* mini-cart border */
+
+.cart_drop_down .dropdown-menu {
+    border-width: 0 !important;
+}
+
+/* mini-cart labels */
+
+.header .row.vouchers h4 {
+    text-transform: none;
+    font-size: .875rem !important;
+}
+
+#search+.header-cart .user_drop_down .dropdown-menu ul.user_list li.user_link {
+    padding: 0 0 0 35px;
+}
+
+#search+.header-cart .user_drop_down .dropdown-menu ul.user_list li.user_link::before {
+    right: unset;
+    left: 10px;
+}
