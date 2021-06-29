@@ -71,3 +71,13 @@ div:not(.mobile_wishlist) .btn:not(.btn-wish-list):not(#button-coupon), .product
     border-bottom-right-radius: var(--main-border-rad);
     border-width: var(--main-border-w) !important;
 }
+
+/* Main buttons / Основные кнопки */
+
+.btn.btn-primary, .btn.btn-info, .btn.btn-theme:not(.btn-theme-transparent):not(.facebook):not(.twitter):not([disabled]), #home.account-login .btn.btn-theme.btn-theme-dark, .theme_11#home .add_to_cart .btn.btn-theme, .theme_11#home #search #search_results .add_to_cart .btn.btn-theme, .theme_11.account-wishlist .add_to_cart .btn.btn-theme, #home.checkout-checkout #button-login, #home #contact-form .form-button-submit, #home.error-not_found .btn.btn-theme-dark, body#home.ltr.account-edit .float-right input, body#home.ltr.account-password .float-right input, body#home.ltr.account-address .float-right a, body#home.ltr.account-address-edit .float-right input, body#home.ltr.account-address-add .float-right input, body#home.ltr.account-order-info .float-right input {
+    opacity: 1 !important;
+    border-style: solid;
+    border-color: var(--btn-primary-border-clr) !important;
+    background-color: var(--btn-primary-bg-clr) !important;
+    color: var(--btn-primary-clr) !important;
+}
