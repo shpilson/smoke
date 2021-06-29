@@ -7,9 +7,8 @@
 @import './Main/card.css';      /* Card / Карточки товаров */
 @import './Footer/footer.css';  /* Footer / Подвал */
 
-@import './interfaces.css';     /* Interfaces / Интерфейсы */
 @import './buttons.css';        /* Buttons / Кнопки */
-
+@import './interfaces.css';     /* Interfaces / Интерфейсы */
 
 /* Background image / Фоновое изображение */
 
