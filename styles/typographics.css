@@ -7,19 +7,19 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span,
 }
 
 :root {
-    --main-color: #C19549;
-    --main-border-rad: 5px;
-    --main-border-w: 1px;
     --font-headers: 'Roboto', serif;
     --font-body: 'Roboto', sans-serif;
+    --main-color: #C19549;
     --btn-primary-bg-clr: #C19549;
-    --btn-primary-clr: white;
     --btn-primary-border-clr: #C19549;
     --btn-primary-clr-h: #C19549;
-    --btn-secondary-bg-clr: transparent;
     --btn-secondary-clr: #C19549;
     --btn-secondary-border-clr: #C19549;
     --btn-secondary-clr-hover: #7d6231;
     --link-hover-clr: #7d6231;
+    --btn-primary-clr: white;
+    --main-border-rad: 5px;
+    --main-border-w: 1px;
+    --btn-secondary-bg-clr: transparent;
     --product-img-fit: cover;
 }
