@@ -1,5 +1,10 @@
 /* Header: cart */
 
+body.theme-gray.theme_11 .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header {
+    background-color: var(--main-color) !important;
+    color: #fff;
+}
+
 body.theme-yellow-1.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
     border-radius: var(--border-radius) !important;
     -webkit-filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
