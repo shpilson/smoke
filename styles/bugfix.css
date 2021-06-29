@@ -1,39 +1,3 @@
-/* :root {
-  --main-border-rad: 10px;
-  --main-border-w: 1px;
-  --font-headers: 'Roboto Slab', serif;
-  --font-body: 'Roboto Slab', sans-serif;
-
-  --btn-primary-bg-clr: #CC2F77;
-  --btn-primary-clr: white;
-  --btn-primary-border-clr: black;
-
-  --btn-primary-bg-h: red;
-  --btn-primary-clr-h: black;
-  --btn-primary-border-clr-h: yellow;
-
-  --btn-secondary-bg-clr: transparent;
-  --btn-secondary-clr: black;
-  --btn-secondary-border-clr: #CC2F77;
-  --btn-secondary-clr-hover: #2fcc51;
-
-  --link-hover-clr: red;
-
-  --product-img-fit: cover;
-} */
-
-/* ------------------------------------------------ MAIN SETTINGS ------------------------------------------------ */
-
-/* headers font */
-
-body h1, body h2, body h3, body h4, body h5, body h6, h2.section-title>span, .information-title {
-    font-family: var(--font-headers);
-}
-
-body#home a, body#home p, body#home span, div.caption-weight, body.other {
-    font-family: var(--font-body) !important;
-}
-
 /* set up buttons and inputs shape */
 
 div:not(.mobile_wishlist) .btn:not(.btn-wish-list):not(#button-coupon), .product-product .buttons .btn, .quantity.buttons_added, .buttons .quantity, .header #search_results, .message-box, .message-box .message-box-inner, input.qty, .form-control:not(#input-coupon):not(.quantity_field), .account-wishlist .form-control, .alert, .results_text a, .cart-wrapper, .theme_11 .header-cart, .dropdown-menu, .cart-items-inner, .header-style-4 #cart, .desktop-added-to-cart, .select2-selection, .select2-search__field, .select2-dropdown, .modal-content, body.ltr .information-title, body.ltr .widget.account-details .widget-title, .product-category .widget.shop-categories, .product-category .widget.side-categories, .filter-tab, .widget.account-details ul, .widget-filter-price, .widget.widget-filter-brand, .widget-row .widget, #form-review .comments-form, .account-register fieldset#account, .account-register fieldset#address, .account-register fieldset#address+fieldset {
@@ -151,19 +115,6 @@ body:not(.account-wishlist) .form-control:not(textarea):not(#input-search):not([
     -o-object-fit: var(--product-img-fit);
     object-fit: var(--product-img-fit);
 }
-
-/* footer at the bottom full heigth 
-.information-information .wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.information-information .footer {
-  margin-top: auto !important;
-}*/
-
-/* theme_11 desc subcat icons styling */
 
 .ltr.theme_11.product-category .subcategories_top {
     display: block;
@@ -791,11 +742,6 @@ body.ltr.account-edit .float-left, body.ltr.account-password .float-left, body.l
 }
 
 /* ------------------------------------------------ NAVBAR ------------------------------------------------ */
-
-/* navbar side burger
-nav > ul ul {
-  margin-left: 5px !important;
-} */
 
 /* mob bottom nav home link style */
 
