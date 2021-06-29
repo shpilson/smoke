@@ -136,6 +136,7 @@ const constants = {
 import addTitle from './blocks/addTitle.js';
 import activateMenu from '../../Menu/Menu.js';
 import Advantages from './blocks/Advantages/Advantages.js';
+import Footer from '../../Footer/Footer.js';
 
 const Main = () => {
   if (constants.body.main) {
@@ -145,6 +146,7 @@ const Main = () => {
     );
       activateMenu();
       Advantages();
+      Footer();
   }
 }
 

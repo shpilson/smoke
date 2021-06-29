@@ -6,4 +6,4 @@ const Footer = () => {
   moveFooterToWrapper();
 }
 
-Footer();
+export default Footer;
