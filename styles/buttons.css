@@ -169,3 +169,8 @@ body .add_to_cart .btn.btn-theme:not(.btn-wish-list) i, #button-review i {
     right: unset;
     left: 10px;
 }
+
+body.theme-gray.theme_11 .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header {
+    background-color: var(--main-color) !important;
+    color: #fff;
+}
