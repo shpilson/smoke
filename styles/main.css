@@ -1,7 +1,7 @@
-@import './typographics.css'; /* Fonts & Colors */
+@import './typographics.css'; /* Fonts & Colors / Шрифты, цвета */
 
 @import './fixes.css';
-@import './UI.css';
+@import './interfaces.css';
 
 @import '../scripts/Menu/styles/menu.css';
 @import './Header/header.css';
@@ -18,9 +18,4 @@ body.common-home>.wrapper {
     background-size: 100%;
 }
 
-/* Background color */
-
-body.theme_11 .wrapper .header .header-wrapper {
-    background: #F0D3A2 !important;
-}
 
