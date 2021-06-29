@@ -1,5 +1,5 @@
 /* Set settings for user interface elements (popup cart, buttons) */
-/* Задаём настройки для элементов пользовательского интерфейса (всплывающая корзина, кнопки= */
+/* Задаём настройки для элементов пользовательского интерфейса (всплывающая корзина, кнопки) */
 
 body.theme_11.ru.ltr .btn.btn-theme:not(.btn-wish-list), body.theme_11.ru.ltr .header-cart .buttons .checkout-button a, body.theme_11.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme_11.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button, body.theme_11.ru.ltr.product-product .product-single.product-item .buttons .btn-wish-list:hover, .header-cart .buttons .cart-button a:hover, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart, body.theme_11.ru.ltr .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header, body.theme_11 .social-icons li a:hover {
     background-color: var(--main-color) !important;
