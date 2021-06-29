@@ -1,16 +1,15 @@
-@import './typographics.css'; /* Fonts & Colors / Шрифты, цвета */
+@import './typographics.css';   /* Fonts & Colors / Шрифты, цвета */
 
-@import './interfaces.css';
+@import '../scripts/Menu/styles/menu.css';  /* Dropdown menu / Выпадающее меню */
 
-@import '../scripts/Menu/styles/menu.css';
-@import './Header/header.css';
+@import './Header/header.css';  /* Header / Шапка */
+@import './Main/category.css';  /* Category / Категории */
+@import './Main/card.css';      /* Card / Карточки товаров */
+@import './Footer/footer.css';  /* Footer / Подвал */
 
-@import './Main/category.css';
-@import './Main/card.css';
+@import './interfaces.css';     /* Interfaces / Интерфейсы */
+@import './buttons.css';        /* Buttons / Кнопки */
 
-@import './Footer/footer.css';
-
-@import './buttons.css';
 
 /* Background image / Фоновое изображение */
 
