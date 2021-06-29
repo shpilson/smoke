@@ -144,7 +144,7 @@ const Main = () => {
       constants.elements.homefeaturedCategory.el().querySelector('.container'),
       'Категории',
     );
-      activateMenu();
+      /* activateMenu(); */
       Advantages();
       Footer();
   } else {
