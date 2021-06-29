@@ -147,6 +147,9 @@ const Main = () => {
       activateMenu();
       Advantages();
       Footer();
+  } else {
+    activateMenu();
+    Footer();
   }
 }
 
