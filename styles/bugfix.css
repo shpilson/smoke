@@ -1,36 +1,3 @@
-/* ======================== SECONDARY BUTTONS HOVERS ======================== */
-
-/* whole button hover */
-
-#home .btn.btn-theme-dark:hover, .cart_drop_down .media.buttons .btn.btn-theme-default:hover, .checkout-cart .btn.btn-theme-default:hover {
-    border-style: solid;
-    border-color: var(--btn-primary-border-clr) !important;
-    background-color: var(--btn-primary-bg-clr) !important;
-    color: var(--btn-primary-clr) !important;
-}
-
-/* only text hover */
-
-.quantity .btn i:hover, .product-product .product-single .buttons .quantity .qty:hover, #home .quantity.buttons_added i:hover, #home .quantity.buttons_added input:hover, .product-product .product-item .buttons .btn.btn-wish-list:hover i, #home #search #search_results .quantity.buttons_added i:hover, #home #search #search_results .quantity.buttons_added input:hover {
-    color: var(--btn-secondary-clr-hover) !important;
-}
-
-/* links hovers */
-
-/* #home div:not(#search) a:hover:not(.btn):not(#cart), */
-
-#home li.flexy:hover>a, a.media-link span:hover, a span.step-name:hover, .checkout-checkout .radio label:hover {
-    color: var(--link-hover-clr) !important;
-}
-
-/* buttons animation on click and hold */
-
-div:not(.mobile_wishlist) .btn:not(.btn-wish-list):not(.dropdown-toggle):active, .product-product .buttons .btn:active, body:not(.checkout-cart) .quantity.buttons_added:active {
-    -webkit-transform: scale(.97);
-    -ms-transform: scale(.97);
-    transform: scale(.97);
-}
-
 /* inputs same height */
 
 body:not(.account-wishlist) .form-control:not(textarea):not(#input-search):not([name="search"]):not(.quantity_input) {
