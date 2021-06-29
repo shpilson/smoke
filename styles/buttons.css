@@ -93,13 +93,11 @@ div:not(.mobile_wishlist) .btn:not(.btn-wish-list):not(.dropdown-toggle):active,
     transform: scale(.97);
 }
 
-/* Button focus remove */
-
 .btn:not(.btn-wish-list):focus {
     border-width: 1px !important;
 }
 
-/* cart-dropdown buttons 5s on one line */
+/* Cart-dropdown one line / Выпадающая корзина на одной линии */
 
 @media (max-width: 320px) {
     .dropdown-menu .cart-content .media-links>.row {
@@ -108,7 +106,7 @@ div:not(.mobile_wishlist) .btn:not(.btn-wish-list):not(.dropdown-toggle):active,
     }
 }
 
-/* buy button loading/qty height fix */
+/* Buy button loading / Кнопка покупки и загрузка */
 
 div:not(.mobile_wishlist) .btn:not(span):not(.btn-wish-list):not(.dropdown-toggle):not(.dropdown-toggle):not(#list-view):not(#grid-view):not(#button-coupon):not(.btn-block), .product-product .buttons .btn, .quantity.buttons_added, .buttons .quantity {
     display: -webkit-box;
