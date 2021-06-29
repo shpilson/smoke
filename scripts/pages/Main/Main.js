@@ -135,6 +135,7 @@ const constants = {
 
 import addTitle from './blocks/addTitle.js';
 import activateMenu from '../../Menu/Menu.js';
+import Advantages from './blocks/Advantages/Advantages.js';
 
 const Main = () => {
   if (constants.body.main) {
@@ -143,6 +144,7 @@ const Main = () => {
       'Категории',
     );
       activateMenu();
+      Advantages();
   }
 }
 
