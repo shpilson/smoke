@@ -1,7 +1,5 @@
 @import './typographics.css'; /* Fonts & Colors / Шрифты, цвета */
-@import './buttons.css';
 
-@import './bugfix.css';
 @import './interfaces.css';
 
 @import '../scripts/Menu/styles/menu.css';
@@ -11,6 +9,9 @@
 @import './Main/card.css';
 
 @import './Footer/footer.css';
+
+@import './bugfix.css';
+@import './buttons.css';
 
 /* Background image */
 
