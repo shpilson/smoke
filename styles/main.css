@@ -1,6 +1,6 @@
 @import './typographics.css'; /* Fonts & Colors / Шрифты, цвета */
 
-@import './fixes.css';
+@import './bugfix.css';
 @import './interfaces.css';
 
 @import '../scripts/Menu/styles/menu.css';
