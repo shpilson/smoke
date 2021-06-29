@@ -5,6 +5,7 @@
 @import './Header/header.css';  /* Header / Шапка */
 @import './Main/category.css';  /* Category / Категории */
 @import './Main/card.css';      /* Card / Карточки товаров */
+@import '../scripts/pages/Main/blocks/Advantages/Advantages.css'; /* Advantages / Блок преимуществ */
 @import './Footer/footer.css';  /* Footer / Подвал */
 
 @import './buttons.css';        /* Buttons / Кнопки */
