@@ -39,3 +39,28 @@ body h1, body h2, body h3, body h4, body h5, body h6, h2.section-title>span, .in
 body#home a, body#home p, body#home span, div.caption-weight, body.other {
     font-family: var(--font-body) !important;
 }
+
+/* Buttons, inputs / Кнопки и форма ввода */
+
+div:not(.mobile_wishlist) .btn:not(.btn-wish-list):not(#button-coupon), .product-product .buttons .btn, .quantity.buttons_added, .buttons .quantity, .header #search_results, .message-box, .message-box .message-box-inner, input.qty, .form-control:not(#input-coupon):not(.quantity_field), .account-wishlist .form-control, .alert, .results_text a, .cart-wrapper, .theme_11 .header-cart, .dropdown-menu, .cart-items-inner, .header-style-4 #cart, .desktop-added-to-cart, .select2-selection, .select2-search__field, .select2-dropdown, .modal-content, body.ltr .information-title, body.ltr .widget.account-details .widget-title, .product-category .widget.shop-categories, .product-category .widget.side-categories, .filter-tab, .widget.account-details ul, .widget-filter-price, .widget.widget-filter-brand, .widget-row .widget, #form-review .comments-form, .account-register fieldset#account, .account-register fieldset#address, .account-register fieldset#address+fieldset {
+    border-radius: var(--main-border-rad) !important;
+    border-width: var(--main-border-w) !important;
+}
+
+.product-product .content-tabs .tab-content {
+    border-radius: var(--main-border-rad);
+    border-top-left-radius: 0;
+    border-width: var(--main-border-w) !important;
+}
+
+#input-coupon {
+    border-top-left-radius: var(--main-border-rad);
+    border-bottom-left-radius: var(--main-border-rad);
+    border-width: var(--main-border-w) !important;
+}
+
+#button-coupon, #cart_table #discount_form #button-coupon {
+    border-top-right-radius: var(--main-border-rad);
+    border-bottom-right-radius: var(--main-border-rad);
+    border-width: var(--main-border-w) !important;
+}
