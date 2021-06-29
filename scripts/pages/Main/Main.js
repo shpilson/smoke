@@ -134,6 +134,7 @@ const constants = {
   }
 
 import addTitle from './blocks/addTitle.js';
+import activateMenu from '../../Menu/Menu.js';
 
 const Main = () => {
   if (constants.body.main) {
@@ -141,6 +142,7 @@ const Main = () => {
       constants.elements.homefeaturedCategory.el().querySelector('.container'),
       'Категории',
     );
+      activateMenu();
   }
 }
 

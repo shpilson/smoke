@@ -141,4 +141,4 @@ const activateMenu = () => {
   openMenu();
 }
 
-activateMenu();
+export default activateMenu;
