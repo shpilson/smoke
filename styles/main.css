@@ -1,4 +1,5 @@
 @import './typographics.css'; /* Fonts & Colors / Шрифты, цвета */
+@import './buttons.css';
 
 @import './bugfix.css';
 @import './interfaces.css';
