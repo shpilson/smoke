@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.389fce89.css",
+    "main.js": "/static/js/main.413e9162.js",
+    "static/media/fondFour.svg": "/static/media/fondFour.49cc4019741cb0de72bb892839d5ae54.svg",
+    "static/media/fondTwo.svg": "/static/media/fondTwo.55dbb53c0a1ec3be393928fb8c46d233.svg",
+    "static/media/350.svg": "/static/media/350.29715239f05d9a92a32b6f8dcd1337e8.svg",
+    "static/media/fondThree.svg": "/static/media/fondThree.b6cea2a95806e5a85ec496355196bb40.svg",
+    "static/media/fondOne.svg": "/static/media/fondOne.784b6e3a79a4073e22c3f21f442a1469.svg",
+    "static/media/theme.svg": "/static/media/theme.547ac2ec5bc7b14a37f6.svg",
+    "static/media/star.svg": "/static/media/star.c123f9ebb1889e982865d6c00db0355d.svg",
+    "static/media/10.svg": "/static/media/10.4b79e6f6232235a99bacb37c93a4741c.svg",
+    "static/media/letter.svg": "/static/media/letter.39e1ea5269dd1f74026a50ffa1694cc9.svg",
+    "static/media/language.svg": "/static/media/language.a06f23c6cfb0545bd8e2.svg",
+    "static/media/arrowPrev.svg": "/static/media/arrowPrev.4dbd4f89762d40f7692a.svg",
+    "static/media/arrowNext.svg": "/static/media/arrowNext.a6486588457c00592044.svg",
+    "static/media/themeBlack.svg": "/static/media/themeBlack.7793e192cbb8822c1a01.svg",
+    "static/media/arrow.svg": "/static/media/arrow.f234a45565ff1e486719.svg",
+    "static/media/languageEn.svg": "/static/media/languageEn.cdf45b97c6d9419909d6.svg",
+    "static/media/titleIcon.svg": "/static/media/titleIcon.94976068ff01f7412ab9bbb6793921ac.svg",
+    "static/media/close.svg": "/static/media/close.1a23c73496a671b618624a794226020c.svg",
+    "static/media/triangleBackground.svg": "/static/media/triangleBackground.0251afe2896a89617428a85a35e7e312.svg",
+    "index.html": "/index.html",
+    "static/media/triangleThree.svg": "/static/media/triangleThree.bffe3a360b53c72f1409c1069e30d059.svg",
+    "static/media/triangleTwo.svg": "/static/media/triangleTwo.18d1f11e79e276c231839d08d2d7e09b.svg",
+    "static/media/triangleFour.svg": "/static/media/triangleFour.2b3c9746ca7862c894d6d047d7da4712.svg",
+    "static/media/plus.svg": "/static/media/plus.b6d169e023f31e18e2e8.svg",
+    "static/media/minus.svg": "/static/media/minus.1c2b9b8cc27610e20de1.svg",
+    "static/media/triangle.svg": "/static/media/triangle.0786437192fc73a8ba8ccd986e2711ac.svg",
+    "main.389fce89.css.map": "/static/css/main.389fce89.css.map",
+    "main.413e9162.js.map": "/static/js/main.413e9162.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.389fce89.css",
+    "static/js/main.413e9162.js"
+  ]
+}
